@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2020-11-11T12:37:38.479Z</updated>
+  <updated>2020-11-11T14:04:47.586Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="http://example.com/2020/11/09/computedAndMethods/"/>
     <id>http://example.com/2020/11/09/computedAndMethods/</id>
     <published>2020-11-09T12:32:50.000Z</published>
-    <updated>2020-11-11T12:37:38.479Z</updated>
+    <updated>2020-11-11T14:04:47.586Z</updated>
     
     
       
@@ -34,6 +34,12 @@
     
     
     
+    <category term="Vue的学习" scheme="http://example.com/categories/Vue%E7%9A%84%E5%AD%A6%E4%B9%A0/"/>
+    
+    
+    <category term="Vue" scheme="http://example.com/tags/Vue/"/>
+    
+    <category term="基础语法" scheme="http://example.com/tags/%E5%9F%BA%E7%A1%80%E8%AF%AD%E6%B3%95/"/>
     
   </entry>
   
