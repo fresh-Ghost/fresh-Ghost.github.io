@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>我的第一个博客</title>
+    <url>/2020/11/07/my-first-blog/</url>
+    <content><![CDATA[<blockquote>
+<p>学习前端以来，拥有的第一个博客，利用github+hexo搭建，此次为第一次上传文章。<br>博客配置指南：<a href="https://www.jianshu.com/p/3a05351a37dc">《Hexo的Next主题详细配置》</a></p>
+</blockquote>
+]]></content>
+  </entry>
+  <entry>
     <title>Vue中computed和methods的区别</title>
     <url>/2020/11/09/computedAndMethods/</url>
     <content><![CDATA[<p><font size="4" color="lightblue">computed会基于响应式依赖进行缓存，而methods方法却不会</font></p>
@@ -18,13 +26,5 @@
         <tag>Vue</tag>
         <tag>基础语法</tag>
       </tags>
-  </entry>
-  <entry>
-    <title>我的第一个博客</title>
-    <url>/2020/11/07/my-first-blog/</url>
-    <content><![CDATA[<blockquote>
-<p>学习前端以来，拥有的第一个博客，利用github+hexo搭建，此次为第一次上传文章。<br>博客配置指南：<a href="https://www.jianshu.com/p/3a05351a37dc">《Hexo的Next主题详细配置》</a></p>
-</blockquote>
-]]></content>
   </entry>
 </search>
