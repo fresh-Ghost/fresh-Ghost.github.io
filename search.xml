@@ -52,19 +52,10 @@
       </tags>
   </entry>
   <entry>
-    <title>ES6中新的数据结构：Set()和Map()</title>
-    <url>/2020/11/12/setAndMap/</url>
-    <content><![CDATA[<h3 id="Set"><a href="#Set" class="headerlink" title="Set()"></a>Set()</h3><h4 id="接收数组参数，没有重复项，可以对数组进行去重"><a href="#接收数组参数，没有重复项，可以对数组进行去重" class="headerlink" title="接收数组参数，没有重复项，可以对数组进行去重"></a>接收数组参数，没有重复项，可以对数组进行去重</h4><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">let s &#x3D; new Set([1, 1, 2, 3])</span><br><span class="line">let res &#x3D; [...s] </span><br><span class="line">console.log(res)       &#x2F;&#x2F; [1, 2, 3]</span><br></pre></td></tr></table></figure>
-<h4 id="API：size-add-delete-hs-clear-forEach"><a href="#API：size-add-delete-hs-clear-forEach" class="headerlink" title="API：size/add/delete/hs/clear/forEach"></a>API：size/add/delete/hs/clear/forEach</h4><h4 id="求并集"><a href="#求并集" class="headerlink" title="求并集"></a>求并集</h4><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">let a &#x3D; [1, 2, 3];</span><br><span class="line">let b &#x3D; [2, 3, 4];</span><br><span class="line">let c &#x3D; [...a, ...b];</span><br><span class="line">let cc &#x3D; new Set(c);</span><br><span class="line">let res &#x3D; [...cc];</span><br><span class="line">console.log(res)        &#x2F;&#x2F; [1, 2, 3, 4]</span><br></pre></td></tr></table></figure>
-<h4 id="求交集"><a href="#求交集" class="headerlink" title="求交集"></a>求交集</h4><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">let a &#x3D; [1, 2, 3];</span><br><span class="line">let b &#x3D; [2, 3, 4];</span><br><span class="line">let aa &#x3D; new Set(a);</span><br><span class="line">let bb &#x3D; new Set(b);</span><br><span class="line">let res &#x3D; [...aa].filter(function(item) &#123;</span><br><span class="line">  return bb.has(item)</span><br><span class="line">&#125;)</span><br><span class="line">console.log(res)        &#x2F;&#x2F; [2, 3]</span><br></pre></td></tr></table></figure>
-<h3 id="Map-WeakMap-：储存键值对的形式的数据，has表，散列"><a href="#Map-WeakMap-：储存键值对的形式的数据，has表，散列" class="headerlink" title="Map()/WeakMap()：储存键值对的形式的数据，has表，散列"></a>Map()/WeakMap()：储存键值对的形式的数据，has表，散列</h3><h4 id="key不能重复，通过set方法设置，get方法获取值"><a href="#key不能重复，通过set方法设置，get方法获取值" class="headerlink" title="key不能重复，通过set方法设置，get方法获取值"></a>key不能重复，通过set方法设置，get方法获取值</h4><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">let map &#x3D; new Map();</span><br><span class="line">map.set(&#39;a&#39;, 1);</span><br><span class="line">map.set(&#39;b&#39;, 2);</span><br><span class="line">console.log(map);       &#x2F;&#x2F; Map(2) &#123;&quot;a&quot; &#x3D;&gt; 1, &quot;b&quot; &#x3D;&gt; 2&#125;</span><br><span class="line">map.get(&#39;a&#39;)            &#x2F;&#x2F; 1</span><br></pre></td></tr></table></figure>
-<h4 id="WeakMap-不会造成内存泄漏"><a href="#WeakMap-不会造成内存泄漏" class="headerlink" title="WeakMap()不会造成内存泄漏"></a>WeakMap()不会造成内存泄漏</h4>]]></content>
-  </entry>
-  <entry>
     <title>我的第一个博客</title>
     <url>/2020/11/07/my-first-blog/</url>
     <content><![CDATA[<blockquote>
-<p>学习前端以来，拥有的第一个博客，利用github+hexo搭建，此次为第一次上传文章。<br>博客配置指南：<a href="https://www.jianshu.com/p/3a05351a37dc">《Hexo的Next主题详细配置》</a></p>
+<p>学习前端以来，拥有的第一个博客，利用github+hexo搭建，此次为第一次上传文章。<br>博客配置指南：<a href="https://www.jianshu.com/p/3a05351a37dc">《Hexo的Next主题详细配置》</a><br>博客常见命令：<a href="https://blog.csdn.net/xuezhisdc/article/details/53130328">《hexo教程系列——hexo安装教程》</a></p>
 </blockquote>
 ]]></content>
   </entry>
@@ -82,5 +73,14 @@
         <tag>Vue</tag>
         <tag>问题解决</tag>
       </tags>
+  </entry>
+  <entry>
+    <title>ES6中新的数据结构：Set()和Map()</title>
+    <url>/2020/11/12/setAndMap/</url>
+    <content><![CDATA[<h3 id="Set"><a href="#Set" class="headerlink" title="Set()"></a>Set()</h3><h4 id="接收数组参数，没有重复项，可以对数组进行去重"><a href="#接收数组参数，没有重复项，可以对数组进行去重" class="headerlink" title="接收数组参数，没有重复项，可以对数组进行去重"></a>接收数组参数，没有重复项，可以对数组进行去重</h4><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">let s &#x3D; new Set([1, 1, 2, 3])</span><br><span class="line">let res &#x3D; [...s] </span><br><span class="line">console.log(res)       &#x2F;&#x2F; [1, 2, 3]</span><br></pre></td></tr></table></figure>
+<h4 id="API：size-add-delete-hs-clear-forEach"><a href="#API：size-add-delete-hs-clear-forEach" class="headerlink" title="API：size/add/delete/hs/clear/forEach"></a>API：size/add/delete/hs/clear/forEach</h4><h4 id="求并集"><a href="#求并集" class="headerlink" title="求并集"></a>求并集</h4><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">let a &#x3D; [1, 2, 3];</span><br><span class="line">let b &#x3D; [2, 3, 4];</span><br><span class="line">let c &#x3D; [...a, ...b];</span><br><span class="line">let cc &#x3D; new Set(c);</span><br><span class="line">let res &#x3D; [...cc];</span><br><span class="line">console.log(res)        &#x2F;&#x2F; [1, 2, 3, 4]</span><br></pre></td></tr></table></figure>
+<h4 id="求交集"><a href="#求交集" class="headerlink" title="求交集"></a>求交集</h4><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">let a &#x3D; [1, 2, 3];</span><br><span class="line">let b &#x3D; [2, 3, 4];</span><br><span class="line">let aa &#x3D; new Set(a);</span><br><span class="line">let bb &#x3D; new Set(b);</span><br><span class="line">let res &#x3D; [...aa].filter(function(item) &#123;</span><br><span class="line">  return bb.has(item)</span><br><span class="line">&#125;)</span><br><span class="line">console.log(res)        &#x2F;&#x2F; [2, 3]</span><br></pre></td></tr></table></figure>
+<h3 id="Map-WeakMap-：储存键值对的形式的数据，has表，散列"><a href="#Map-WeakMap-：储存键值对的形式的数据，has表，散列" class="headerlink" title="Map()/WeakMap()：储存键值对的形式的数据，has表，散列"></a>Map()/WeakMap()：储存键值对的形式的数据，has表，散列</h3><h4 id="key不能重复，通过set方法设置，get方法获取值"><a href="#key不能重复，通过set方法设置，get方法获取值" class="headerlink" title="key不能重复，通过set方法设置，get方法获取值"></a>key不能重复，通过set方法设置，get方法获取值</h4><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">let map &#x3D; new Map();</span><br><span class="line">map.set(&#39;a&#39;, 1);</span><br><span class="line">map.set(&#39;b&#39;, 2);</span><br><span class="line">console.log(map);       &#x2F;&#x2F; Map(2) &#123;&quot;a&quot; &#x3D;&gt; 1, &quot;b&quot; &#x3D;&gt; 2&#125;</span><br><span class="line">map.get(&#39;a&#39;)            &#x2F;&#x2F; 1</span><br></pre></td></tr></table></figure>
+<h4 id="WeakMap-不会造成内存泄漏"><a href="#WeakMap-不会造成内存泄漏" class="headerlink" title="WeakMap()不会造成内存泄漏"></a>WeakMap()不会造成内存泄漏</h4>]]></content>
   </entry>
 </search>
