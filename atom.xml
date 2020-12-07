@@ -37,9 +37,9 @@
     <category term="Vue的学习" scheme="http://example.com/categories/Vue%E7%9A%84%E5%AD%A6%E4%B9%A0/"/>
     
     
-    <category term="Vue" scheme="http://example.com/tags/Vue/"/>
-    
     <category term="问题解决" scheme="http://example.com/tags/%E9%97%AE%E9%A2%98%E8%A7%A3%E5%86%B3/"/>
+    
+    <category term="Vue" scheme="http://example.com/tags/Vue/"/>
     
   </entry>
   
